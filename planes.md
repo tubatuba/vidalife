@@ -3,20 +3,20 @@ layout: default
 title: "Planes"
 ---
 
-# Plan Pirata
+## Plan Pirata
 El motín es tu plata
 
-# Plan Hippie
+## Plan Hippie
 Nos gastamos tu plata en cripy
 
-# Plan Duro
+## Plan Duro
 Nos gastamos tu plata en pasta muro
 
-# Plan Militar
+## Plan Militar
 Nos gastamos tu plata en alargarle la vida a Lucia Hiriart
 
-# Plan Aweonao
+## Plan Aweonao
 Le damos tu plata al vecino de al lado
 
-# Plan Rancagua
+## Plan Rancagua
 El plan que no existe
