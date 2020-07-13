@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AFP VidaLife"
+title: "Mas que una pension, una forma de ver la vida"
 ---
 
 # La AFP de la gente viva
