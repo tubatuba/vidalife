@@ -6,7 +6,7 @@ title: "Planes"
 # Plan Pirata
 El motín es tu plata
 
-# Plan Papi Ricky
+# Plan Hippie
 Nos gastamos tu plata en cripy
 
 # Plan Aweonao
