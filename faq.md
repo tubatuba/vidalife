@@ -9,7 +9,7 @@ Y poque no?
 
 ## Que significa AFP?
 
-AFP sinigica
+AFP sinigica Ahorro Forzado Piramidal.
 
 ## Donde esta mi plata?
 
