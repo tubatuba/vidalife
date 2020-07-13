@@ -7,9 +7,9 @@ layout: home
 
 ## Hablamos tu idioma
 
-Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como tu e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. Hablamos en tu mismo idioma y fracasamos junto a ti.
+Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como tu e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. 
 
-## Somos humanos
+## 100% Humanos
 
 Nuestro equipo de analistas esta 100% conformado por personas muy humanas, mientras que las otras AFP no se atreven a divulgar la especie de sus empleados. No dejes tu futuro a cargo de animales! Con nosotros, tu dinero estara siempre en buenas manos (y no garras).₁
 
