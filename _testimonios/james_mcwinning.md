@@ -3,4 +3,4 @@ name: James McWinning
 img: testimonio3.jpg
 name_2: Ganador
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Soy un ganador profesional y mi disciplina requiere estar ganando un 99% del tiempo. Por eso estoy en el fondo G, un producto especial de VidaLife donde mis fondos entran a un concurso donde siempre ganas un premio, que puede ser chocolate, crema depilatoria o un viaje a coquimbo.
