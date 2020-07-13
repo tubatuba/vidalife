@@ -1,6 +1,5 @@
 ---
 layout: home
-title: "Mas que una pension, una forma de ver la vida"
 ---
 
 
