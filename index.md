@@ -16,4 +16,15 @@ En VidaLife no solo queremos que ahorres con nosotros. Tambien queremos que te c
 
 Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como tu e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. Hablamos en tu mismo idioma y fracasamos junto a ti.
 
-<sup><sub> 1. casi siempre no es la mayoria de las veces. El 70% puede variar segun su ciudad de nacimiento, signo zodiacal y cantidad de liquido en las rodillas.</sub></sup>
+## Somos humanos
+
+Nuestro equipo de analistas esta 100% conformado por personas muy humanas, mientras que las otras AFP no se atreven a divulgar la especie de sus empleados. No dejes tu futuro a cargo de animales! Con nosotros, tu dinero estara siempre en buenas manos (y no garras).₂
+
+<ul>
+<li>
+<small> 1. Casi siempre no es la mayoria de las veces. El 70% puede variar segun su ciudad de nacimiento, signo zodiacal y cantidad de liquido en las rodillas.</small>
+</li>
+<li>
+<small> 2. Algunos de nuestros analistas externos podrian ser tortugas o chimpances</small>
+</li>
+</ul>
