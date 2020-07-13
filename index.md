@@ -22,11 +22,5 @@ Nuestro equipo de analistas esta 100% conformado por personas muy humanas, mient
 
 Somos relajaos, piola! Nuestros ejecutivos fuman cripy y tienen plantas. El otro dia hicieron un campeonato de baby futbol y a la mitad del partido se dieron cuenta que faltaba un arco. No nos preocupa nada, realmente nada! por eso nunca te daremos malas noticias o cualquier noticia. No te llamaremos y tampoco hay un numero para llamarnos, porque queremos que disfrutes el 100% de tu vida haciendo lo que te gusta.
 
-<ul>
-<li>
-<small> 1. Casi siempre no es la mayoria de las veces. El 70% puede variar segun su ciudad de nacimiento, signo zodiacal y cantidad de liquido en las rodillas.</small>
-</li>
-<li>
-<small> 2. Algunos de nuestros analistas externos podrian ser tortugas o chimpances</small>
-</li>
-</ul>
+1. Casi siempre no es la mayoria de las veces. El 70% puede variar segun su ciudad de nacimiento, signo zodiacal y cantidad de liquido en las rodillas.
+2. Algunos de nuestros analistas externos podrian ser tortugas o chimpances

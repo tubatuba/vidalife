@@ -3,6 +3,9 @@
     padding-top:50%;
     margin-bottom: 12px;
 }
+#hero {
+    margin-bottom: 24px;
+}
 #home p {
     margin-bottom: 24px;
 }
@@ -13,4 +16,13 @@
 #home-call-to-action {
     text-align: center;
     padding:24px;
+}
+#home h1 {
+    margin-bottom: 24px;
+    color:$orange;
+}
+#home ol li {
+    font-size: 10px;
+    list-style-type: decimal;
+    margin-left:10px;
 }
