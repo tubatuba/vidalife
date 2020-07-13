@@ -1,6 +1,10 @@
 ---
 layout: default
 title: "Planes"
+cta_text: "Usa nuestra simulador de pensiones y revisa cuantos Mercedes-Benz te alcanzan"
+cta_title: "Calcula tu Rentabilidad"
+cta_btn: "Simulador"
+cta_link: "/calculadora.html"
 ---
 
 ## Plan Pirata

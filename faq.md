@@ -1,6 +1,10 @@
 ---
 layout: default
 title: "Preguntas frecuentes"
+cta_title: "Avivate QL"
+cta_text: "VidaLife es vida. Queris morir?"
+cta_btn: "Conoce nuestros planes"
+cta_link: "/planes.html"
 ---
 
 ## Por que???
