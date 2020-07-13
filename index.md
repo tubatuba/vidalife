@@ -19,7 +19,7 @@ Somos relajaos, piola! Nuestros ejecutivos fuman cripy y tienen plantas. El otro
 
 ## Confiable
 
-Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y tu lo sabemos. Con tu plata nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
+Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y tu lo sabemos. Con las comisiones nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
 
 ## Casi siempre tiene Rentabilidades
 
