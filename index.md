@@ -7,7 +7,7 @@ layout: home
 
 ## Hablamos tu idioma
 
-Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como tu e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. 
+Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como usted e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. 
 
 ## 100% Humanos
 
@@ -19,7 +19,7 @@ Somos relajaos, piola! Nuestros ejecutivos fuman cripy y tienen plantas. El otro
 
 ## Confiable
 
-Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y tu lo sabemos. Con las comisiones nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
+Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y usted lo sabemos. Con las comisiones nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
 
 ## Casi siempre tiene Rentabilidades
 
