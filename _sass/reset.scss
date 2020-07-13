@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Modern Reset CSS
+   ========================================================================== */
+
+   *
+   {
+       border: 0;
+       box-sizing: content-box;
+       color: inherit;
+       font-family: inherit;
+       font-size: inherit;
+       font-style: inherit;
+       font-weight: inherit;
+       line-height: inherit;
+       list-style: inherit;
+       margin: 0;
+       padding: 0;
+       text-decoration: inherit;
+       vertical-align: baseline;
+   }
+   
+   html
+   {
+       cursor: default;
+           -ms-text-size-adjust: 100%;
+       -webkit-text-size-adjust: 100%;
+       text-size-adjust: 100%;
+       word-wrap: break-word;
+   }
