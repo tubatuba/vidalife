@@ -22,3 +22,6 @@ Es relativo. Depende del futuro y no podemos saber el futuro (Yolanda Sultana co
 # Puedo sacar el 10%?
 
 No. Por ningun motivo. Eso destaparia la ira de Yog Sototh, también es venerado por otros nombres como Yogge-Sothothe, Yogsothoth, Dios Yog, Yog-Shoggoth y Yogshoggoth, conectado con todo el tiempo y espacio, quien lo sabe todo y lo ve todo, abridor de puertas al infierno y tarros de pickles.
+
+# Que instrumentos tienen?
+Los instrumentos de ahorro de AFP plan vida life cambian mes a mes, convirtiendo las finanzas en un juego divertido en vez de algo soso y aburrido
