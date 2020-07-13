@@ -1,12 +1,17 @@
 $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
+$blue: 0f426f;
 body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
 }
+h1,h2,h3,h4,h5 {
+  font-weight: bolder;
+  color:$blue;
+}
+
 #header-logo {
   width: 200px;
 }
@@ -72,9 +77,6 @@ header li {
   height: 300px;
   width:auto;
   margin-left: -100px;
-}
-h1,h2,h3,h4,h5 {
-    font-weight: bolder;
 }
 
 h1 {
