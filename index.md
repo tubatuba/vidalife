@@ -10,7 +10,7 @@ Avivate! En VidaLife tenemos mas de 3,800 planes para que confies tus ahorros en
 
 ## Casi siempre tiene Rentabilidades
 
-En VidaLife no solo queremos que ahorres con nosotros. Tambien queremos que nos conozcas y quizas tomemos helado. En la tercera cita, podemos tocarnos. Por eso, y muchas otras razones te GARANTIZAMOS que CASI SIEMPRE obtendras mas de un 70% de rentablilidad promedio.₁
+En VidaLife no solo queremos que ahorres con nosotros: Tambien queremos que nos conozcas y quizas tomemos helado; Y en la tercera cita, podemos tocarnos. Por eso, y muchas otras razones te GARANTIZAMOS que CASI SIEMPRE obtendras mas de un 70% de rentablilidad promedio.₁
 
 ## Somos como tu
 
