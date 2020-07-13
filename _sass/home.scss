@@ -10,7 +10,7 @@
 #hero {
     width: 100%;
     background-image: url(/assets/img/winxp.jpg);
-    background-position: bottom;
+    background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,8 @@
 #hero h2 {
     color: white;
     font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+
 }
 .call-to-action {
     text-align: center;
