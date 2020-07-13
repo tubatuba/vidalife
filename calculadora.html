@@ -29,12 +29,18 @@ cta_link: "/testimonios.html"
         <h2>Tire la palanca</h2>
         <div id="sm">
             
-            <div class="reel"></div>
-            <div class="reel"></div>
-            <div class="reel"></div>
+            <div class="reel" id="reel0">
+                <img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png">
+            </div>
+            <div class="reel" id="reel1">
+                <img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png">
+            </div>
+            <div class="reel" id="reel2">
+                <img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png"><img src="assets/img/reel.png">
+            </div>
         
         </div>
-    
+    <button onclick="palanca()" id="palanca">palanca</button>
 <script>
 var current_question=0;
 $( "#question_0_select" ).change(function() {
@@ -45,4 +51,34 @@ $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
     $("#question_2").show();
 });
+function palanca() {
+    $('#palanca').prop('disabled', 'disabled');
+
+    console.log("YAHOO")
+    reel0=100;
+    reel1=400;
+    reel2=1000;
+    $("#reel0").animate({
+    scrollTop: reel0
+    }, 1000);
+
+    $("#reel1").animate({
+    scrollTop: reel1
+    }, 2000);
+
+    $("#reel2").animate({
+    scrollTop: reel2
+    }, 3000);
+}
+$("#reel0").animate({
+    scrollTop: 0
+    }, 0);
+
+    $("#reel1").animate({
+    scrollTop: 0
+    }, 0);
+
+    $("#reel2").animate({
+    scrollTop: 0
+    }, 0);
 </script>

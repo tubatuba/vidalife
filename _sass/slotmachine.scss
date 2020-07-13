@@ -1,9 +1,11 @@
 #sm {
     display: flex;
     flex-direction: row;
+    height:100px;
 }
 .reel {
     width:100px;
-    background-color: yellow;
-    height:300px;
+    height:100px;
+    overflow: hidden;
+
 }
