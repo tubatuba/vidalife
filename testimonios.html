@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Testimonios"
+---
+{% for testimonio in site.testimonios %}
+ <div class="testimonio">
+<img src="/assets/img/{{ testimonio.img }}">
+     <div>
+    <p>{{ testimonio.content }}</p>
+    <p>{{ testimonio.name }}</p>
+    <p>{{ testimonio.name_2 }}</p>
+
+</div>
+ </div>
+
+{% endfor %}

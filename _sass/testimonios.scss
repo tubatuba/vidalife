@@ -1,0 +1,11 @@
+.testimonio {
+    display: flex;
+    width: 100%;
+    flex-direction: grow;
+}
+.testimonio img {
+    width: 127px;
+    height: 127px;
+    object-fit: cover;
+    margin-right: 12px;
+}
