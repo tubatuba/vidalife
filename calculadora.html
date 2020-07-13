@@ -6,3 +6,43 @@ cta_text: "Descubre como hemos cambiado la vida de nuestros afilados"
 cta_btn: "Testimonios"
 cta_link: "/testimonios.html"
 ---
+<p>Contesta las siguientes preguntas y nuestro simulador te dira como estara tu jubilacion</p>
+<div id="question_0">
+<h2>En que rango se encuentra su sueldo?</h2>
+<select id="question_0_select">
+    <option value="0"></option>
+    <option value="1">$0-$100.000</option>
+    <option value="2">$100.000-$50.000.000</option>
+    <option value="3">$50.000.000 o superior</option>
+</select>
+</div>
+<div id="question_1">
+    <h2>En que rango se encuentra su sueldo?</h2>
+    <select id="question_1_select">
+        <option value="0"></option>
+        <option value="1">$0-$100.000</option>
+        <option value="2">$100.000-$50.000.000</option>
+        <option value="3">$50.000.000 o superior</option>
+    </select>
+    </div>
+    <div id="question_2">
+        <h2>Tire la palanca</h2>
+        <div id="sm">
+            
+            <div class="reel"></div>
+            <div class="reel"></div>
+            <div class="reel"></div>
+        
+        </div>
+    
+<script>
+var current_question=0;
+$( "#question_0_select" ).change(function() {
+    $('#question_0_select').prop('disabled', 'disabled');
+    $("#question_1").show();
+});
+$( "#question_1_select" ).change(function() {
+    $('#question_1_select').prop('disabled', 'disabled');
+    $("#question_2").show();
+});
+</script>
