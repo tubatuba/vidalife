@@ -1,0 +1,14 @@
+@media (min-width: 768px) { 
+    #menu {
+        position: relative;
+        display: block;
+        flex-grow: 2;
+        top:0;
+        overflow: hidden;
+    }
+    #menu li {
+        display: inline;
+        margin-right: 12px;
+        line-height: 48px;
+    }
+}
