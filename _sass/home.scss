@@ -2,20 +2,51 @@
     color:$orange;
     padding-top:50%;
     margin-bottom: 12px;
+    text-shadow: 1px 1px 1px black;
 }
 #hero {
     margin-bottom: 24px;
 }
+#hero {
+    width: 100%;
+    background-image: url(/assets/img/winxp.jpg);
+    background-position: bottom;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  #hero-content {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #hero-content img {
+    height: 300px;
+    width:auto;
+    margin-left: -100px;
+  }
 #home p {
+    
     margin-bottom: 24px;
 }
 #hero h2 {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 #home-call-to-action {
     text-align: center;
-    padding:24px;
+    padding-top: 24px;
+    padding-bottom:48px;
+    background-color: $blue;
+    margin-top:48px;
+}
+#home-call-to-action h3 {
+    color: white;
+}
+#home-call-to-action p {
+    color: white;
 }
 #home h1 {
     margin-bottom: 24px;

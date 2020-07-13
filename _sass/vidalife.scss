@@ -80,26 +80,7 @@ header li {
   display: flex;
   flex-direction: row;
 }
-#hero {
-  width: 100%;
-  background-image: url(/assets/img/winxp.jpg);
-  background-position: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-height: 300px;
-  overflow: hidden;
-}
-#hero-content {
-  display: flex;
-  flex-direction: row;
-  
-}
-#hero-content img {
-  height: 300px;
-  width:auto;
-  margin-left: -100px;
-}
+
 
 h1 {
     font-size: 32px;
@@ -110,11 +91,18 @@ h2 {
 h3 {
     font-size: 24px;
 }
+header .material-icons {
+  margin-top: 5px;
+}
 .btn {
   background-color: $orange;
   color: white;
   text-decoration: none;
   padding: 6px 12px;
+}
+header button {
+  background-color: transparent;
+  border: 0;
 }
 #page-title {
   font-size: 40px;
