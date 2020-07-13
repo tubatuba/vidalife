@@ -35,17 +35,25 @@ header li {
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 300px;
+  overflow: hidden;
 }
 #hero-content {
   display: flex;
   flex-direction: row;
   
 }
+#hero-content img {
+  height: 300px;
+  width:auto;
+  margin-left: -100px;
+}
 h1,h2,h3,h4,h5 {
     font-weight: bolder;
 }
 h1 {
-    font-size: 48px;
+    font-size: 40px;
 }
 h2 {
     font-size: 32px;
