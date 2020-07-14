@@ -17,7 +17,7 @@ Nos gastamos tu plata en cripy
 Nos gastamos tu plata en pasta muro
 
 ## Plan Militar
-Nos gastamos tu plata en alargarle la vida a Lucia Hiriart
+Se la damos a Lucia Hiriart
 
 ## Plan Aweonao
 Le damos tu plata al vecino de al lado
