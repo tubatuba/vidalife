@@ -1,6 +1,14 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v7.0" nonce="qD4XBa8E"></script>
+
 <footer>
+    {% if page.cta_title %}
+    <div class="call-to-action">
+        <h3>{{page.cta_title}}</h3>
+        <p>{{page.cta_text}}</p>
+        <a class="btn" href="{{page.cta_link}}">{{page.cta_btn}}</a>
+      </div>
+      {% endif %}
     <div id="footer-content" class="content">
         <div>
             <h4>#AFPVidaLife</h4>
