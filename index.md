@@ -11,7 +11,7 @@ Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como t�
 
 ## 100% Humanos
 
-Nuestro equipo de analistas esta 100% conformado por personas muy humanas, mientras que las otras AFP no se atreven a divulgar la especie de sus empleados. No dejes tu futuro a cargo de animales! Con nosotros, tu dinero estara siempre en buenas manos (y no garras).₁
+Nuestro equipo de analistas está completamente conformado por personas muy humanas, mientras que las otras AFP no se atreven a divulgar la especie de sus empleados. No dejes tu futuro a cargo de animales! Con nosotros, tu dinero estara siempre en buenas manos (y no garras).₁
 
 ## Cero drama
 
