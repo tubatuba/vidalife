@@ -25,5 +25,8 @@ Nos metemos tus ahorros por el orto
 ## Plan Aweonao
 Le damos tu plata al vecino de al lado
 
+## Plan Choriflay
+Infertimos tus ahorros con Rafa Garay
+
 ## Plan Rancagua
 El plan que no existe
