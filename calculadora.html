@@ -55,7 +55,10 @@ cta_link: "/testimonios.html"
         <h2>Resultado</h2>
         <h3 id="resultado-title"></h3>
         <p id="resultado-text"></p>
+        <a id="comparte-twitter-link" href="https://twitter.com/intent/tweet?text=Hello%20world">Compartir en Twitter</a>
+
     </div>
+
 <script>
 var jubilaciones=[
     "Asombrosa",
@@ -117,7 +120,9 @@ $( "#question_2_select" ).change(function() {
 function showResult() {
     $("#resultado-title").html("Tu pensión será: "+jubilaciones[jubilacion])
     $("#resultado-text").html(textos[jubilacion]);
-
+    var share_text="He usado el simulador de jubilación #AFPVidaLife y mi pensión será: "+jubilaciones[jubilacion]+"\n\nhttps://afpvidalife.com"
+    var new_url="https://twitter.com/intent/tweet?text="+encodeURIComponent(share_text)
+    $("#comparte-twitter-link").attr("href", new_url); // Set herf value
     $("#resultado").show();
     
 }
