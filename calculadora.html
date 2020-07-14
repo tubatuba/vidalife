@@ -56,6 +56,17 @@ $( "#question_0_select" ).change(function() {
 $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
     $("#question_2").show();
+    $("#reel0").animate({
+    scrollTop: 0
+    }, 0);
+
+    $("#reel1").animate({
+    scrollTop: 0
+    }, 0);
+
+    $("#reel2").animate({
+    scrollTop: 0
+    }, 0);
 });
 function showResult() {
     $("#resultado").show();
@@ -73,9 +84,9 @@ function palanca() {
     $('#palanca').prop('disabled', 'disabled');
 
     console.log("YAHOO")
-    reel0=400;
-    reel1=805;
-    reel2=1610;
+    reel0=300;
+    reel1=705;
+    reel2=1510;
     $("#reel0").animate({
     scrollTop: reel0
     }, 1000);
@@ -89,15 +100,5 @@ function palanca() {
     }, 3000);
     setTimeout(showResult,3000);
 }
-$("#reel0").animate({
-    scrollTop: 0
-    }, 0);
 
-    $("#reel1").animate({
-    scrollTop: 0
-    }, 0);
-
-    $("#reel2").animate({
-    scrollTop: 0
-    }, 0);
 </script>
