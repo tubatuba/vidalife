@@ -21,7 +21,7 @@ No sabemos.
 
 ## ¿Qué hacen con mis fondos?
 
-Muy sencillo! Se lo damos a las empresas mas grandes de Chile como capital barato para que sus socios megaricos no tengan que invertir de su bolsillo.
+Muy sencillo! Se lo damos a las empresas mas grandes de Chile que necesitan capital barato para que sus socios megaricos no tengan que invertir de su bolsillo.
 
 ## ¿Puedo sacar el 10%?
 
