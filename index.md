@@ -2,7 +2,6 @@
 layout: home
 ---
 
-
 # Razones para escojer VidaLife:
 
 ## Hablamos tu idioma
