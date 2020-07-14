@@ -7,7 +7,7 @@ layout: home
 
 ## Hablamos tu idioma
 
-Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como usted e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. 
+Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como tú e incluso peor. En AFP VidaLife nadie te aburre con cifras o palabras raras, porque no las sabemos. 
 
 ## 100% Humanos
 
