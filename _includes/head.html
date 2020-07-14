@@ -13,11 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
-    {% if page.url == "/index.html" %}
+    {% if page.url == "/" %}
     <title>{{ site.title }} - Más vale ahorra que nunca</title>
-    <meta property="og:title" content="Entréganos tus ahorros y los tiramos a la chuña" />
+    <meta property="og:title" content="La AFP que apuesta tus fondos en carreras de galgos" />
     {% else %}
-
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta property="og:title" content="{{page.title}}" />
     {% endif %}
