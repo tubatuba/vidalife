@@ -7,14 +7,20 @@ cta_btn: "Simulador"
 cta_link: "/calculadora.html"
 ---
 
+## Plan Oro
+Tiramos tu dinero al inodoro
+
+## Plan Platino
+Lo apostamos todo en el casino
+
+## Plan Diamante
+Te devolvemos una fracción insignificante
+
 ## Plan Pirata
 El motín es tu plata
 
 ## Plan Hippie
 Nos gastamos tu plata en cripy
-
-## Plan Duro
-Nos gastamos tu plata en pasta muro
 
 ## Plan Militar
 Usamos tus fondos para alargarle la vida a Lucia Hiriart
