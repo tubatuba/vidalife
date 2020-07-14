@@ -60,13 +60,16 @@ cta_link: "/testimonios.html"
 var jubilaciones=[
     "Asombrosa",
     "El descueve",
-    "Dura"
+    "Dura",
+    "Excelente",
+    "Genial"
 ]
 var textos=[
     "Caviar sintetico, viajes y un fantastico automovil catalitico te esperan para acompanarte en tu vejez.",
     "En tu lujoso loft subterraneo cenaras con las Tortugas Ninja y practicaras surf en la alcantarilla.",
     "Como el gran Diego Maradona tu vida de adulto mayor sera magica: llena de polvo de estrellas, momentos de euforia y seras el terror de los bingos bailables.",
-
+    "La ultima etapa de tu vida estara llena de entretenidos misterios y aventuras como la hipertension, colesterol alto y numerosos examenes rectales. Como Sherlock Holmes viviras hermosos episodios de intriga tratando de entender donde chucha se fueron tus fondos.",
+    "Tus ultimos dias seran los mas grandiosos: Como una gran estrella de Rock, tocaras para miles de fanaticos en las micros y emprenderas en el dinamico rubro del parche curita. Tu fama en Conchali solo es superada por Zalo Reyes"
 ]
 var current_question=0;
 var jubilacion=0;
@@ -82,6 +85,9 @@ $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
     var select_value=parseInt($("#question_1_select").val());
     console.log(select_value);
+    jubilacion=jubilacion+select_value;
+    console.log(jubilacion);
+
     $("#question_2").show();
 });
 $( "#question_2_select" ).change(function() {
