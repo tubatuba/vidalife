@@ -21,7 +21,7 @@ Somos relajaos, piola! Nuestros ejecutivos fuman cripy y tienen plantas. El otro
 
 Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y usted lo sabemos. Con las comisiones nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
 
-## Casi siempre tiene Rentabilidades
+## Rentabilidad, Casi Siempre™ 
 
 En VidaLife no solo queremos que ahorres con nosotros: Tambien queremos que nos conozcas y quizas tomemos helado; Y en la tercera cita, podemos tocarnos. Por eso, y muchas otras razones te GARANTIZAMOS que CASI SIEMPRE obtendras mas de un 70% de rentablilidad promedio.₂
 
