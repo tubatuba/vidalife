@@ -19,13 +19,18 @@ AFP sinigica Ahorro Forzado Piramidal.
 
 No sabemos.
 
-## ¿Cuánto voy a ganar?
+## ¿Qué hacen con mis fondos?
 
-Es relativo. Depende del futuro y no podemos saber el futuro (Yolanda Sultana cobra muy caro). Dependiendo de tu relacion torso:piernas, grosor de cabello pubico, cantidad de liquido en las rodillas y otros factores fisiologico-espirituales tu rentabilidad varia entre -2*(n+1) y 2*(n+1) siendo n la voluntad del nino iluminatti.
+Muy sencillo! Se lo damos a las megaempresas como capital barato para que sus socios multibillonarios no tengan que gastar de su bolsillo.
 
 ## ¿Puedo sacar el 10%?
 
 No. Por ningun motivo. Eso destaparia la ira de Yog Sototh, también conocido Yogge-Sothothe, Yogsothoth, Dios Yog, Yog-Shoggoth y Yogshoggoth, quien lo sabe todo y lo ve todo, abridor de puertas al infierno y tarros de pickles.
+
+
+## ¿Cuánto voy a ganar?
+
+Es relativo. Depende del futuro y no podemos saber el futuro (Yolanda Sultana cobra muy caro). Dependiendo de tu relacion torso:piernas, grosor de cabello pubico, cantidad de liquido en las rodillas y otros factores fisiologico-espirituales tu rentabilidad varia entre -2*(n+1) y 2*(n+1) siendo n la voluntad del nino iluminatti.
 
 ## ¿Qué instrumentos tienen?
 Los instrumentos de ahorro de AFP plan vida life cambian mes a mes, convirtiendo las finanzas en un juego divertido en vez de algo soso y aburrido
