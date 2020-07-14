@@ -1,61 +1,91 @@
 ---
 layout: default
 title: "Calcula tu rentablidiad"
-cta_title: "La mejor reputacion del mercado"
+cta_title: "La mejor reputasion del mercado"
 cta_text: "Descubre como hemos cambiado la vida de nuestros afilados"
 cta_btn: "Testimonios"
 cta_link: "/testimonios.html"
 ---
 <p>Contesta las siguientes preguntas y nuestro simulador te dira como estara tu jubilacion</p>
-<div id="question_0">
-<h2>En que rango se encuentra tu sueldo?</h2>
-<select id="question_0_select">
-    <option value="0"></option>
-    <option value="1">$0-$100.000</option>
-    <option value="2">$100.000-$50.000.000</option>
-    <option value="3">$50.000.000 o superior</option>
-</select>
-</div>
-<div id="question_1">
-    <h2>Cuanto liquido posees en las rodillas?</h2>
-    <select id="question_1_select">
+    <div id="question_0">
+    <h2>En que rango se encuentra tu sueldo?</h2>
+        <select id="question_0_select">
+        <option value="0"></option>
+        <option value="1">$0-$100.000</option>
+        <option value="2">$100.000-$50.000.000</option>
+        <option value="3">$50.000.000 o superior</option>
+        </select>
+    </div>
+    <div id="question_1" style="display: none;">
+    <h2>Cuales son tus sexos?</h2>
+        <select id="question_1_select">
+        <option value="0"></option>
+        <option value="1">Masculinos</option>
+        <option value="2">Femeninos</option>
+        <option value="3">Otros</option>
+        </select>
+    </div>
+    <div id="question_2" style="display: none;">
+        <h2>Cuanto liquido posees en las rodillas?</h2>
+        <select id="question_2_select">
         <option value="0"></option>
         <option value="1">0 - 50ml</option>
         <option value="2">50ml - 1lt</option>
         <option value="3">Mas de 1 litro</option>
     </select>
     </div>
-    <div id="question_2" style="display: none;">
-        <h2>Tire la palanca</h2>
-        <div id="sm">
-            
-            <div class="reel" id="reel0">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
-            <div class="reel" id="reel1">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
-            <div class="reel" id="reel2">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
+    <div id="question_3" style="display: none;">
+    <h2>Tire la palanca</h2>
+    <div id="sm">
         
+        <div class="reel" id="reel0">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
         </div>
+        <div class="reel" id="reel1">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
+        </div>
+        <div class="reel" id="reel2">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
+        </div>
+
+    </div>
     <button onclick="palanca()" id="palanca">palanca</button>
     </div>
     <div id="resultado" style="display:none">
         <h2>Resultado</h2>
         <h3 id="resultado-title"></h3>
-        <p>Con tu jubilación vas a quedar como grillito!</p>
+        <p id="resultado-text"></p>
     </div>
 <script>
 var current_question=0;
 $( "#question_0_select" ).change(function() {
     $('#question_0_select').prop('disabled', 'disabled');
+    var select_value=parseInt($("#question_0_select").val());
+    resultados=[
+        "Asombrosa",
+        "El descueve",
+        "Filete",
+        "Flor"
+    ]
+    $("#resultado-title").html("Tu pensión será: "+resultados[select_value])
     $("#question_1").show();
 });
 $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
+    var select_value=parseInt($("#question_1_select").val());
+    var resultado_text="Con tu jubilación vas a quedar como grillito! Caviar sintetico, viajes y un fantastico automovil catalitico te esperan para acompanarte en tu vejez."
+    if(select_value==2) {
+        resultado_text="Con tu jubilacion vas a quedar como Reina! En tu lujoso loft subterraneo cenaras con las Tortugas Ninja y practicaras surf en la alcantarilla."
+    } else if(select_value==3) {
+        resultado_text="Como el gran Diego Maradona tu vida de adulto mayor sera magica, llena de polvo de estrellas, momentos magicos de euforia y seras el terror de los bingos bailables."
+    }
+    $("#resultado-text").html(resultado_text);
+    console.log(select_value);
     $("#question_2").show();
+});
+$( "#question_2_select" ).change(function() {
+    $('#question_2_select').prop('disabled', 'disabled');
+    $("#question_3").show();
     $("#reel0").animate({
     scrollTop: 0
     }, 0);
@@ -70,15 +100,7 @@ $( "#question_1_select" ).change(function() {
 });
 function showResult() {
     $("#resultado").show();
-    resultados=[
-        "Cachilupi",
-        "Dije",
-        "Asombrosa",
-        "El descueve",
-        "Flor",
-        "Filete"
-    ]
-    $("#resultado-title").html("Tu pensión será: "+resultados[Math.floor(Math.random() * resultados.length)])
+    
 }
 function palanca() {
     $('#palanca').prop('disabled', 'disabled');
