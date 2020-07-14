@@ -13,10 +13,6 @@ Sabes lo que es un APV? SIS? AFC? Nosotros tampoco! Somos tan ignorantes como t�
 
 Nuestro equipo de analistas está completamente conformado por personas muy humanas, mientras que las otras AFP no se atreven a divulgar la especie de sus empleados. No dejes tu futuro a cargo de animales! Con nosotros, tu dinero estara siempre en buenas manos (y no garras).₁
 
-## Cero drama
-
-Somos relajaos, piola! Nuestros ejecutivos fuman cripy y tienen plantas. El otro dia hicieron un campeonato de baby futbol y a la mitad del partido se dieron cuenta que faltaba un arco. No nos preocupa nada, realmente nada! por eso nunca te daremos malas noticias o cualquier noticia. Nunca te llamarmos y tampoco hay un numero al que puedas llamarnos, porque queremos que disfrutes el 100% de tu vida haciendo lo que te gusta.
-
 ## Confiable
 
 Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y usted lo sabemos. Con las comisiones nos compramos autos, casa en la playa y skins de Fortnite. Nisiquiera pagamos impuesto en Chile porque somos extranjeros! Algun problema? Esta en la constitucion Chilena. Te invitamos a leerla y llorar.
