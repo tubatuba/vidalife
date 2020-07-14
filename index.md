@@ -1,5 +1,9 @@
 ---
 layout: home
+cta_title: "Avivate ql"
+cta_text: "VidaLife es vida. ¿Queris morir?"
+cta_btn: "Conoce nuestros planes"
+cta_link: "/planes.html"
 ---
 
 
