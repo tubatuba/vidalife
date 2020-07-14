@@ -3,7 +3,13 @@ $bodyColor: #000000;
 $bodyFont: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $blue: #0f426f;
 $orange: #f68d1e;
-
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
 body {
   background: $backgroundColor;
   color: $bodyColor;
@@ -95,7 +101,7 @@ h1 {
 h2 {
     font-size: 28px;
     color: $orange;
-
+  margin-top:12px;
 }
 h3 {
     font-size: 24px;
@@ -122,15 +128,23 @@ header {
   overflow: hidden;
 
 }
+#main {
+  flex: 1 0 auto;
+}
 small {
-  font-size: 10px;
+  font-size: 1
 }
 footer {
+  margin-top: 24px;
   background-color: #333;
   color:#aaa;
   padding-bottom:24px;
+  flex-shrink: 0;
 }
-
+.footer,
+.push {
+  height: 200px;
+}
 footer h4 {
   color: white;
   padding-top: 24px;
@@ -142,4 +156,5 @@ footer a {
 }
 footer li {
   list-style-type: none;
+  height:22px;
 }

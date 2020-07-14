@@ -1,5 +1,9 @@
 ---
 layout: home
+cta_title: "Avivate ql"
+cta_text: "VidaLife es vida. ¿Queris morir?"
+cta_btn: "Conoce nuestros planes"
+cta_link: "/planes.html"
 ---
 
 # Razones para escojer VidaLife:
@@ -18,7 +22,7 @@ Seamos honestos: Esto es un negocio! Nosotros, nuestros competidores y usted lo 
 
 ## Rentabilidad, Casi Siempre™ 
 
-En VidaLife no solo queremos que ahorres con nosotros: También queremos que nos conozcas y quizas tomemos helado; Y en la tercera cita, podemos tocarnos. Por eso, y muchas otras razones te garantizamos que Casi Siempre™ obtendras hasta un 70% de rentablilidad promedio.₂
+En VidaLife no solo queremos que ahorres con nosotros: También queremos conocerte y darte besitos; Por eso, y muchas otras razones te garantizamos que Casi Siempre™ obtendras hasta un 70% de rentablilidad promedio.₂
 
 1. Algunos de nuestros analistas externos podrian ser tortugas o chimpances
 2. Casi siempre no es la mayoria de las veces. El 70% puede variar segun su ciudad de nacimiento, signo zodiacal y cantidad de liquido en las rodillas.

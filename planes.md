@@ -17,10 +17,16 @@ Nos gastamos tu plata en cripy
 Nos gastamos tu plata en pasta muro
 
 ## Plan Militar
-Se la damos a Lucia Hiriart
+Usamos tus fondos para alargarle la vida a Lucia Hiriart
+
+## Plan Corto
+Nos metemos tus ahorros por el orto
 
 ## Plan Aweonao
 Le damos tu plata al vecino de al lado
+
+## Plan Choriflay
+Infertimos tus ahorros con Rafa Garay
 
 ## Plan Rancagua
 El plan que no existe

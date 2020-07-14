@@ -1,61 +1,98 @@
 ---
 layout: default
 title: "Calcula tu rentablidiad"
-cta_title: "La mejor reputacion del mercado"
+cta_title: "La mejor reputasion del mercado"
 cta_text: "Descubre como hemos cambiado la vida de nuestros afilados"
 cta_btn: "Testimonios"
 cta_link: "/testimonios.html"
 ---
 <p>Contesta las siguientes preguntas y nuestro simulador te dira como estara tu jubilacion</p>
-<div id="question_0">
-<h2>En que rango se encuentra tu sueldo?</h2>
-<select id="question_0_select">
-    <option value="0"></option>
-    <option value="1">$0-$100.000</option>
-    <option value="2">$100.000-$50.000.000</option>
-    <option value="3">$50.000.000 o superior</option>
-</select>
-</div>
-<div id="question_1">
-    <h2>Cuanto liquido posees en las rodillas?</h2>
-    <select id="question_1_select">
+    <div id="question_0">
+    <h2>En que rango se encuentra tu sueldo?</h2>
+        <select id="question_0_select">
         <option value="0"></option>
-        <option value="1">0 - 50ml</option>
-        <option value="2">50ml - 1lt</option>
-        <option value="3">Mas de 1 litro</option>
-    </select>
+        <option value="0">$0-$100.000</option>
+        <option value="1">$100.000-$50.000.000</option>
+        <option value="2">$50.000.000 o superior</option>
+        </select>
+    </div>
+    <div id="question_1" style="display: none;">
+    <h2>Cuales son tus sexos?</h2>
+        <select id="question_1_select">
+        <option value="0"></option>
+        <option value="1">Masculinos</option>
+        <option value="2">Femeninos</option>
+        <option value="0">Otros</option>
+        </select>
     </div>
     <div id="question_2" style="display: none;">
-        <h2>Tire la palanca</h2>
-        <div id="sm">
-            
-            <div class="reel" id="reel0">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
-            <div class="reel" id="reel1">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
-            <div class="reel" id="reel2">
-                <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
-            </div>
+        <h2>Cuanto liquido posees en las rodillas?</h2>
+        <select id="question_2_select">
+        <option value="0"></option>
+        <option value="0">0 - 50ml</option>
+        <option value="1">50ml - 1lt</option>
+        <option value="2">Mas de 1 litro</option>
+    </select>
+    </div>
+    <div id="question_3" style="display: none;">
+    <h2>Tire la palanca</h2>
+    <div id="sm">
         
+        <div class="reel" id="reel0">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
         </div>
+        <div class="reel" id="reel1">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
+        </div>
+        <div class="reel" id="reel2">
+            <img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1"><img src="assets/img/reel.png?id=1">
+        </div>
+
+    </div>
     <button onclick="palanca()" id="palanca">palanca</button>
     </div>
     <div id="resultado" style="display:none">
         <h2>Resultado</h2>
         <h3 id="resultado-title"></h3>
-        <p>Con tu jubilación vas a quedar como grillito!</p>
+        <p id="resultado-text"></p>
     </div>
 <script>
+var jubilaciones=[
+    "Asombrosa",
+    "El descueve",
+    "Dura",
+    "Excelente",
+    "Genial"
+]
+var textos=[
+    "Caviar sintetico, viajes en salon cama y un fantastico automovil catalitico te esperan para acompanarte en tu jubilacion llena de comodidades.",
+    "En tu lujoso loft subterraneo cenaras con las Tortugas Ninja y practicaras surf en la alcantarilla.",
+    "Como el gran Diego Maradona tu vida de adulto mayor sera magica: llena de polvo de estrellas, momentos de euforia y seras el terror de los bingos bailables.",
+    "La ultima etapa de tu vida estara llena de entretenidos misterios y aventuras como la hipertension, colesterol alto y numerosos examenes rectales. Como Sherlock Holmes viviras hermosos episodios de intriga tratando de entender donde chucha se fueron tus fondos.",
+    "Tus ultimos dias seran los mas grandiosos: Como una gran estrella de Rock, tocaras para miles de fanaticos en las micros y emprenderas en el dinamico rubro del parche curita. Tu fama en Conchali solo es superada por Zalo Reyes"
+]
 var current_question=0;
+var jubilacion=0;
 $( "#question_0_select" ).change(function() {
     $('#question_0_select').prop('disabled', 'disabled');
+    var select_value=parseInt($("#question_0_select").val());
+    jubilacion=jubilacion+select_value;
+    console.log(jubilacion);
+
     $("#question_1").show();
 });
 $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
+    var select_value=parseInt($("#question_1_select").val());
+    console.log(select_value);
+    jubilacion=jubilacion+select_value;
+    console.log(jubilacion);
+
     $("#question_2").show();
+});
+$( "#question_2_select" ).change(function() {
+    $('#question_2_select').prop('disabled', 'disabled');
+    $("#question_3").show();
     $("#reel0").animate({
     scrollTop: 0
     }, 0);
@@ -69,18 +106,14 @@ $( "#question_1_select" ).change(function() {
     }, 0);
 });
 function showResult() {
+    $("#resultado-title").html("Tu pensión será: "+jubilaciones[jubilacion])
+    $("#resultado-text").html(textos[jubilacion]);
+
     $("#resultado").show();
-    resultados=[
-        "Cachilupi",
-        "Dije",
-        "Asombrosa",
-        "El descueve",
-        "Flor",
-        "Filete"
-    ]
-    $("#resultado-title").html("Tu pensión será: "+resultados[Math.floor(Math.random() * resultados.length)])
+    
 }
 function palanca() {
+    
     $('#palanca').prop('disabled', 'disabled');
 
     console.log("YAHOO")
