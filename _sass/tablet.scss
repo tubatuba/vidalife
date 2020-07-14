@@ -23,4 +23,17 @@
     #logo img {
         margin-left: -24px;
     }
+    #footer-content {
+        display: flex;
+        flex-direction: row;
+    }
+    #footer-content div {
+        padding: 0 12px;
+    }
+    #footer-content div:first-child {
+        padding-left: 0;
+    }
+    #footer-content div:last-child {
+        padding-right: 0;
+    }
 }
