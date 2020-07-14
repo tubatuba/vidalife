@@ -11,9 +11,9 @@ cta_link: "/testimonios.html"
     <h2>En que rango se encuentra tu sueldo?</h2>
         <select id="question_0_select">
         <option value="0"></option>
-        <option value="1">$0-$100.000</option>
-        <option value="2">$100.000-$50.000.000</option>
-        <option value="3">$50.000.000 o superior</option>
+        <option value="0">$0-$100.000</option>
+        <option value="1">$100.000-$50.000.000</option>
+        <option value="2">$50.000.000 o superior</option>
         </select>
     </div>
     <div id="question_1" style="display: none;">
@@ -22,16 +22,16 @@ cta_link: "/testimonios.html"
         <option value="0"></option>
         <option value="1">Masculinos</option>
         <option value="2">Femeninos</option>
-        <option value="3">Otros</option>
+        <option value="0">Otros</option>
         </select>
     </div>
     <div id="question_2" style="display: none;">
         <h2>Cuanto liquido posees en las rodillas?</h2>
         <select id="question_2_select">
         <option value="0"></option>
-        <option value="1">0 - 50ml</option>
-        <option value="2">50ml - 1lt</option>
-        <option value="3">Mas de 1 litro</option>
+        <option value="0">0 - 50ml</option>
+        <option value="1">50ml - 1lt</option>
+        <option value="2">Mas de 1 litro</option>
     </select>
     </div>
     <div id="question_3" style="display: none;">
@@ -57,29 +57,30 @@ cta_link: "/testimonios.html"
         <p id="resultado-text"></p>
     </div>
 <script>
+var jubilaciones=[
+    "Asombrosa",
+    "El descueve",
+    "Dura"
+]
+var textos=[
+    "Caviar sintetico, viajes y un fantastico automovil catalitico te esperan para acompanarte en tu vejez.",
+    "En tu lujoso loft subterraneo cenaras con las Tortugas Ninja y practicaras surf en la alcantarilla.",
+    "Como el gran Diego Maradona tu vida de adulto mayor sera magica: llena de polvo de estrellas, momentos de euforia y seras el terror de los bingos bailables.",
+
+]
 var current_question=0;
+var jubilacion=0;
 $( "#question_0_select" ).change(function() {
     $('#question_0_select').prop('disabled', 'disabled');
     var select_value=parseInt($("#question_0_select").val());
-    resultados=[
-        "Asombrosa",
-        "El descueve",
-        "Filete",
-        "Flor"
-    ]
-    $("#resultado-title").html("Tu pensión será: "+resultados[select_value])
+    jubilacion=jubilacion+select_value;
+    console.log(jubilacion);
+
     $("#question_1").show();
 });
 $( "#question_1_select" ).change(function() {
     $('#question_1_select').prop('disabled', 'disabled');
     var select_value=parseInt($("#question_1_select").val());
-    var resultado_text="Con tu jubilación vas a quedar como grillito! Caviar sintetico, viajes y un fantastico automovil catalitico te esperan para acompanarte en tu vejez."
-    if(select_value==2) {
-        resultado_text="Con tu jubilacion vas a quedar como Reina! En tu lujoso loft subterraneo cenaras con las Tortugas Ninja y practicaras surf en la alcantarilla."
-    } else if(select_value==3) {
-        resultado_text="Como el gran Diego Maradona tu vida de adulto mayor sera magica: llena de polvo de estrellas, momentos de euforia y seras el terror de los bingos bailables."
-    }
-    $("#resultado-text").html(resultado_text);
     console.log(select_value);
     $("#question_2").show();
 });
@@ -99,10 +100,14 @@ $( "#question_2_select" ).change(function() {
     }, 0);
 });
 function showResult() {
+    $("#resultado-title").html("Tu pensión será: "+jubilaciones[jubilacion])
+    $("#resultado-text").html(textos[jubilacion]);
+
     $("#resultado").show();
     
 }
 function palanca() {
+    
     $('#palanca').prop('disabled', 'disabled');
 
     console.log("YAHOO")
