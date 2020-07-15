@@ -3,6 +3,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "AFP VidaLife" # the name of your site, e.g. ACME Corp.
 collections:
   testimonios:
-    output: true
+    output: false
 plugins:
   - jekyll-sitemap
