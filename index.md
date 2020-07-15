@@ -6,7 +6,6 @@ cta_btn: "Conoce nuestros planes"
 cta_link: "/planes.html"
 ---
 
-
 # Razones para escojer VidaLife:
 
 ## Hablamos tu idioma
